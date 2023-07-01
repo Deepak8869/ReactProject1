@@ -1,0 +1,157 @@
+@media screen and (max-width:820px) {
+    .Home3{
+        height: 70vh;
+        width: 100%;
+        >div{
+            height: 70vh;
+            width: 100%;
+            padding: 2.5rem;
+       >p{
+        word-spacing: 12px;
+        margin-left: 33px;
+       }
+
+        }
+    }
+    .Home4{  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        >div{
+           width: 70%;
+           padding: 0.5rem;
+           display: flex;
+           flex-direction: column;
+           
+           >h1{
+            text-align: center;
+           }
+           >article{
+            margin: 1rem 0;
+
+            >div{
+                >svg{
+                    font-size: 3rem;
+                }
+            }
+           }
+
+        }
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 19px;
+        .follow{
+            text-align: center;
+        }
+
+    }
+    .home{
+        width: 50%;
+        height: 100vh;
+        >main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            >h1{
+                text-align: center;
+                font: 200 4rem "Roboto";
+            }
+            >p{
+                text-align: center;
+                font: 700 1rem "Roboto";
+            }
+        }
+        
+    }
+    .home2{
+        >img{
+            margin-right: 5px;
+        }
+        >div{
+           
+            >p{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                top: -20px;
+                padding: 2px;
+                margin-right: 8px;
+                word-spacing: 10px;
+            }
+        }
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        > h1{
+            font-size: 19px;
+            margin-left: 6px;
+        }
+       
+    }
+}
+
+@media screen and (max-width:395px) {
+    .home{
+           
+            >main{
+                
+                >h1{
+                    font-size: 49px;
+                    font-weight: bolder;
+
+                }
+                >p{
+                    text-align: center;
+                    font: 500 0.7rem "Roboto";
+                }
+            }
+            
+        }
+        .home2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 140px;
+            >img{
+                height: 30rem;
+                width: 23rem;
+            }
+            >div{
+                >p{
+                    padding: 0.2rem;
+                    word-spacing: 13px;
+                    letter-spacing: 2px;
+                }
+            }
+        }
+        .Home3{
+            >div{
+                visibility: hidden;
+                
+            }
+        }
+        .Home4{
+            >div{
+                background-color: #090c31;
+            }
+        }
+        nav{
+            >h1{
+                visibility: hidden;
+            }
+            >main{
+                width: 58%;
+
+                
+            }
+        }
+    }
+
